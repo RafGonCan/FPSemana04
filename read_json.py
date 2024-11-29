@@ -8,7 +8,7 @@ try:
     print(data)
     ficheiro.close()
 
-except(FileNotFoundError):
+except:
     print("Ocorreu erro!")
 
 finally:
